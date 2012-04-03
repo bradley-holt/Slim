@@ -1,0 +1,24 @@
+{
+    "name": "slim/slim",
+    "type": "library",
+    "description": "A RESTful micro framework for PHP 5 inspired by Sinatra",
+    "keywords": ["framework"],
+    "homepage": "http://www.slimframework.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Lockhart",
+            "email": "info@joshlockhart.com",
+            "homepage": "http://www.joshlockhart.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Slim": "Slim/",
+            "Slim_": ""
+        }
+    }
+}
